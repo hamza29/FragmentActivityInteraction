@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#A02586"
+    tools:context="com.example.hamza.fragmentactivityinteraction.fragments.Frag_A">
+    <EditText
+        android:id="@+id/etInputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value here"
+        />
+
+    <Button
+        android:id="@+id/btnPress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Me"
+        android:layout_below="@+id/etInputMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginStart="135dp" />
+
+
+</RelativeLayout>
